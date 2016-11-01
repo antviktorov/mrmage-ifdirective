@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Mrmage_IfDirective>
+            <version>1.0.0</version>
+        </Mrmage_IfDirective>
+    </modules>
+    <global>
+        <models>
+            <mrmage_ifdirective>
+                <class>Mrmage_IfDirective_Model</class>
+            </mrmage_ifdirective>
+            <core>
+                <rewrite>
+                    <email_template_filter>Mrmage_IfDirective_Model_Core_Email_Template_Filter</email_template_filter>
+                </rewrite>
+            </core>
+        </models>
+        <helpers>
+            <mrmage_ifdirective>
+                <class>Mrmage_IfDirective_Helper</class>
+            </mrmage_ifdirective>
+        </helpers>
+    </global>
+</config>
