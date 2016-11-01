@@ -1,4 +1,4 @@
-# mrmage-ifdirective
+# mrmage-ifdirective extension Mrmage_IfDirective
 Custom module for Magento 1.x. Equal comparison in email template.
 
 Example how to use equal directive comparison in email template
